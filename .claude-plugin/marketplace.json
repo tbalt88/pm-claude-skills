@@ -1,8 +1,8 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-claude-skills",
-  "version": "11.0.0",
-  "description": "PM stands for Professional, not just Product Management. 135 Claude Skills + 4 agent templates across 23 bundles covering 16 professions — engineering, customer success, legal, finance, HR, sales, design, Figma, marketing, and more. Built by a PM, used by everyone. Building blocks for the Anthropic agent template architecture.",
+  "version": "12.0.0",
+  "description": "PM stands for Professional, not just Product Management. 150 Claude Skills + 4 agent templates across 23 bundles covering 16 professions — engineering, customer success, legal, finance, HR, sales, design, Figma, marketing, and more. Built by a PM, used by everyone. Building blocks for the Anthropic agent template architecture.",
   "owner": {
     "name": "Mohit Aggarwal",
     "email": "mohit15856@gmail.com"
@@ -18,8 +18,8 @@
     },
     {
       "name": "pm-discovery",
-      "description": "Discovery & research skills: Discovery Interview Guide, Job Story Mapper, User Interview Synthesis, Assumption Mapper. Structure user research from screener to synthesis.",
-      "version": "3.0.0",
+      "description": "Discovery & research skills: Discovery Interview Guide, Job Story Mapper, User Interview Synthesis, Assumption Mapper, Customer Journey Map. Structure user research from screener to synthesis — including end-to-end journey mapping with touchpoints, emotions, and prioritised opportunities.",
+      "version": "3.1.0",
       "category": "productivity",
       "source": "./plugins/pm-discovery",
       "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
@@ -34,8 +34,8 @@
     },
     {
       "name": "pm-delivery",
-      "description": "Sprint & delivery skills: Sprint Planning, Technical Spec, A/B Test Planner, Go-to-Market Planner, Launch Checklist, Sprint Brief, Retro Analysis, PPTX Slide Auditor.",
-      "version": "3.1.0",
+      "description": "Sprint & delivery skills: Sprint Planning, Technical Spec, A/B Test Planner, Go-to-Market Planner, Launch Checklist, Sprint Brief, Retro Analysis, PPTX Slide Auditor, User Story Writer. Write production-ready user stories with Given/When/Then acceptance criteria, edge cases, and definition of done.",
+      "version": "3.2.0",
       "category": "productivity",
       "source": "./plugins/pm-delivery",
       "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
@@ -58,8 +58,8 @@
     },
     {
       "name": "pm-advanced",
-      "description": "Advanced PM skills: AI Product Canvas, Multi-Source Signal Synthesiser, Experiment Designer, Design Handoff Brief, Stakeholder Update. For senior PMs working on complex products.",
-      "version": "3.0.0",
+      "description": "Advanced PM skills: AI Product Canvas, Multi-Source Signal Synthesiser, Experiment Designer, Design Handoff Brief, AI Ethics Review. For senior PMs working on complex products — including a structured ethical review framework for AI/ML features covering fairness, transparency, privacy, safety, and accountability.",
+      "version": "3.1.0",
       "category": "productivity",
       "source": "./plugins/pm-advanced",
       "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
@@ -74,8 +74,8 @@
     },
     {
       "name": "pm-gtm",
-      "description": "Marketing & GTM skills: Go-To-Market Planner, Content Calendar, Competitor Teardown, Email Campaign, SEO Content Brief, Media Pitch. Build positioning statements, messaging pillars, feature lists, use cases, launch campaigns, SEO briefs, and journalist pitches.",
-      "version": "1.1.0",
+      "description": "Marketing & GTM skills: Go-To-Market Planner, Content Calendar, Competitor Teardown, Email Campaign, SEO Content Brief, Media Pitch, Social Media Strategy, Product Positioning Doc. Build positioning docs, messaging frameworks, content pillars, social strategies with KPIs, launch campaigns, and journalist pitches.",
+      "version": "1.2.0",
       "category": "productivity",
       "source": "./plugins/pm-gtm",
       "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
@@ -90,32 +90,32 @@
     },
     {
       "name": "pm-cs",
-      "description": "Customer Success skills: Customer Health Scorecard, QBR Deck, Escalation Brief, Churn Analysis. Score account health with a weighted RAG framework, build structured QBR decks with value narratives, write crisp escalation briefs for at-risk accounts, and analyse churn by category and segment with prioritised interventions.",
-      "version": "1.0.0",
+      "description": "Customer Success skills: Customer Health Scorecard, QBR Deck, Escalation Brief, Churn Analysis, Renewal Playbook, Customer Success Plan. Score health, build QBRs, write escalation briefs, plan renewals with commercial strategy and objection responses, and build joint success plans with milestones and mutual commitments.",
+      "version": "1.1.0",
       "category": "productivity",
       "source": "./plugins/pm-cs",
       "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
     },
     {
       "name": "pm-data",
-      "description": "Data & analytics skills: Metrics Framework, SQL Query Explainer, Dashboard Brief, Chart Data Extractor. Build North Star metric trees, explain SQL, spec dashboards, and digitise chart images.",
-      "version": "1.1.0",
+      "description": "Data & analytics skills: Metrics Framework, SQL Query Explainer, Dashboard Brief, Chart Data Extractor, Cohort Analysis, Data Pipeline Spec. Build metric trees, explain SQL, spec dashboards, run cohort retention analysis with LTV modelling, and design ETL/ELT pipeline specifications with SLAs and data quality rules.",
+      "version": "1.2.0",
       "category": "productivity",
       "source": "./plugins/pm-data",
       "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
     },
     {
       "name": "pm-people",
-      "description": "Leadership & people skills: Performance Review, Hiring Rubric, Team Offsite Planner. Write structured reviews, build interview scorecards, and plan offsites from goals to minute-by-minute agenda.",
-      "version": "1.0.0",
+      "description": "Leadership & people skills: Performance Review, Hiring Rubric, Team Offsite Planner, 360-Degree Feedback Template, Team Health Check. Write reviews, build scorecards, run Spotify-model team health assessments, and design 360 feedback surveys with structured narrative reports.",
+      "version": "1.1.0",
       "category": "productivity",
       "source": "./plugins/pm-people",
       "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
     },
     {
       "name": "pm-design",
-      "description": "Design & UX skills: UX Research Plan, Design Critique, Accessibility Audit. Create research plans with discussion guides, critique designs using JTBD and Gestalt principles, audit for WCAG 2.2 compliance.",
-      "version": "1.0.0",
+      "description": "Design & UX skills: UX Research Plan, Design Critique, Accessibility Audit, Design System Audit. Create research plans, critique designs using JTBD and Gestalt principles, audit for WCAG 2.2 compliance, and audit design systems for component coverage, token consistency, and adoption health.",
+      "version": "1.1.0",
       "category": "productivity",
       "source": "./plugins/pm-design",
       "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
@@ -154,16 +154,16 @@
     },
     {
       "name": "pm-sales",
-      "description": "Sales skills: Sales Battlecard, Discovery Call Prep, Proposal Writer, Account Plan, Sales Forecasting Model. Build competitive battlecards, prepare discovery calls, write winning proposals, create account plans, and build pipeline-based revenue forecasts with scenario analysis.",
-      "version": "1.1.0",
+      "description": "Sales skills: Sales Battlecard, Discovery Call Prep, Proposal Writer, Account Plan, Sales Forecasting Model, Partnership Proposal. Build battlecards, prepare calls, write proposals, create account plans, build forecasts, and structure B2B partnership proposals with mutual value, commercial terms, and joint GTM plans.",
+      "version": "1.2.0",
       "category": "productivity",
       "source": "./plugins/pm-sales",
       "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
     },
     {
       "name": "pm-operations",
-      "description": "Operations skills: Process Documentation, SOP Writer, Vendor Evaluation, Project Status Report, Workshop Facilitation Guide. Document workflows, write audit-ready SOPs, evaluate vendors, produce RAG status reports, and design facilitated workshops with activity instructions and facilitator moves.",
-      "version": "1.1.0",
+      "description": "Operations skills: Process Documentation, SOP Writer, Vendor Evaluation, Project Status Report, Workshop Facilitation Guide, Risk Register, RACI Matrix. Document workflows, write SOPs, build risk registers with L×I scoring, define RACI matrices for cross-functional initiatives, and design facilitated workshops.",
+      "version": "1.2.0",
       "category": "productivity",
       "source": "./plugins/pm-operations",
       "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
